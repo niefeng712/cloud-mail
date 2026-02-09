@@ -29,7 +29,7 @@ run_worker_first = true
 crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
 
-#[vars]
+[vars]
 EMAIL_SERVICE = "resend"
 domain = ["niefeng.eu.org"]
 admin = "admin@niefeng.eu.org"
